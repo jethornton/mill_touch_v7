@@ -1,0 +1,29 @@
+21.5” ASUS VT229H monitor supports 10-point touch for virtual keyboards and
+multi-touch applications. With support for HDMI and VGA, the VESA-mountable
+VT229H comes with ASUS exclusive eye Care technology to reduce eye fatigue via
+flicker-free backlighting and blue light filtering during day to day or
+commercial use.
+
+Panel Size: Wide Screen 21.5"(54.6cm) 16:9
+Brightness(Max) : 250 cd/㎡
+Contrast Ratio (Max) : 1000:1
+ASUS Smart Contrast Ratio (ASCR) : 100000000:1
+Viewing Angle (CR≧10) : 178°(H)/178°(V)
+Display Colors : 16.7M
+Touch Glass Thickness: 1.1 mm
+Display SurfaceGlare, 7H Hardness
+Pixel Pitch : 0.2482 mm
+Power On : <21.9W (*2)
+Power Saving/Off : <0.5W
+100-240V, 50/60Hz
+VESA Wall Mounting : 100x100mm
+Tilt : +20°~-5°
+
+Screen Resolution 	1920 x 1080 pixels 
+
+Number of USB 2.0 Ports 	1 
+
+pip install --editable .
+
+sudo apt install python-pyqt5.qtsql
+
