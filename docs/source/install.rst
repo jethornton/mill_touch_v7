@@ -17,8 +17,8 @@ database to work
 To clone and install Mill Touch
 ::
 
-  git clone https://github.com/jethornton/mill_touch_v6.git
-  cd mill_touch_v6
+  git clone https://github.com/jethornton/mill_touch_v7.git
+  cd mill_touch_v7
   pip install -e .
 
 Copy the .xsessionrc file to your home directory and either log out and back in
@@ -32,6 +32,6 @@ linuxcnc/configs
 To use with your config in the ini file set
 
     DISPLAY = qtpyvcp
-    VCP = mill_touch_v6
+    VCP = mill_touch_v7
 
 `QtPyVCP INI options <https://qtpyvcp.kcjengr.com/configuration/ini_options.html>`_
