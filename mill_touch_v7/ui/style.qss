@@ -21,6 +21,33 @@ QPushButton:disabled {
     border-color: #949494;
 }
 
+FileSystemTable {
+  font: 75 14pt "DejaVu Sans Mono";
+}
+
+QScrollBar:vertical {
+  width: 40px;
+  margin: 26px 0 26px 0;
+}
+
+QScrollBar::handle:vertical {
+  background: lightgray;
+  min-height: 40px;
+  max-height: 50px;
+}
+
+QScrollBar::down-button {
+  background: red;
+  min-height: 40px;
+  min-width: 40px;
+}
+
+QScrollBar::up-button:vertical {
+  background: red;
+  min-height: 40px;
+}
+
+
 VCPSettingsSlider, ActionSlider {
     min-width: 50px;
     height: 50px;

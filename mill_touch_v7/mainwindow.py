@@ -13,17 +13,17 @@ import os
 current_path = os.path.dirname(os.path.realpath(__file__)) + '/'
 
 # Setup Handlers
-import mill_touch_v6.plot_handler as plotHandler
-import mill_touch_v6.mdi_handler as mdiHandler
-import mill_touch_v6.g5x_handler as g5xHandler
-import mill_touch_v6.g92_handler as g92Handler
-import mill_touch_v6.hole_ops as holeOps
-import mill_touch_v6.probe_handler as probeHandler
-import mill_touch_v6.gcode_builder as gcodeBuilder
-import mill_touch_v6.rigid_tap as rigidTap
-import mill_touch_v6.sptm_inside as sptmInside
-import mill_touch_v6.tool_table as toolTable
-import mill_touch_v6.tool_set as toolSet
+import mill_touch_v7.plot_handler as plotHandler
+import mill_touch_v7.mdi_handler as mdiHandler
+import mill_touch_v7.g5x_handler as g5xHandler
+import mill_touch_v7.g92_handler as g92Handler
+import mill_touch_v7.hole_ops as holeOps
+import mill_touch_v7.probe_handler as probeHandler
+import mill_touch_v7.gcode_builder as gcodeBuilder
+import mill_touch_v7.rigid_tap as rigidTap
+import mill_touch_v7.sptm_inside as sptmInside
+import mill_touch_v7.tool_table as toolTable
+import mill_touch_v7.tool_set as toolSet
 
 class MyMainWindow(VCPMainWindow):
     """Main window class for the VCP."""

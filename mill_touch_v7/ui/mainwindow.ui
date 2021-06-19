@@ -661,8 +661,8 @@ to the Z Retract position prior to starting the cycle.</string>
                       <rect>
                        <x>10</x>
                        <y>235</y>
-                       <width>54</width>
-                       <height>54</height>
+                       <width>83</width>
+                       <height>83</height>
                       </rect>
                      </property>
                      <property name="text">
@@ -705,8 +705,8 @@ to the Z Retract position prior to starting the cycle.</string>
                       <rect>
                        <x>10</x>
                        <y>235</y>
-                       <width>54</width>
-                       <height>54</height>
+                       <width>83</width>
+                       <height>83</height>
                       </rect>
                      </property>
                      <property name="text">
@@ -749,8 +749,8 @@ to the Z Retract position prior to starting the cycle.</string>
                       <rect>
                        <x>10</x>
                        <y>235</y>
-                       <width>54</width>
-                       <height>54</height>
+                       <width>83</width>
+                       <height>83</height>
                       </rect>
                      </property>
                      <property name="text">
@@ -793,8 +793,8 @@ to the Z Retract position prior to starting the cycle.</string>
                       <rect>
                        <x>10</x>
                        <y>235</y>
-                       <width>54</width>
-                       <height>54</height>
+                       <width>83</width>
+                       <height>83</height>
                       </rect>
                      </property>
                      <property name="text">
@@ -1081,8 +1081,8 @@ Enable</string>
                       <rect>
                        <x>10</x>
                        <y>235</y>
-                       <width>54</width>
-                       <height>54</height>
+                       <width>83</width>
+                       <height>83</height>
                       </rect>
                      </property>
                      <property name="text">
@@ -1668,8 +1668,8 @@ Enable</string>
                       <rect>
                        <x>10</x>
                        <y>235</y>
-                       <width>54</width>
-                       <height>54</height>
+                       <width>83</width>
+                       <height>83</height>
                       </rect>
                      </property>
                      <property name="text">
@@ -3130,8 +3130,8 @@ Start</string>
                          <rect>
                           <x>195</x>
                           <y>230</y>
-                          <width>82</width>
-                          <height>54</height>
+                          <width>83</width>
+                          <height>83</height>
                          </rect>
                         </property>
                         <property name="text">
@@ -3741,8 +3741,8 @@ Drill</string>
                <rect>
                 <x>585</x>
                 <y>45</y>
-                <width>82</width>
-                <height>54</height>
+                <width>83</width>
+                <height>83</height>
                </rect>
               </property>
               <property name="text">
@@ -3756,8 +3756,8 @@ MDI</string>
                <rect>
                 <x>495</x>
                 <y>45</y>
-                <width>82</width>
-                <height>54</height>
+                <width>83</width>
+                <height>83</height>
                </rect>
               </property>
               <property name="text">
@@ -3769,8 +3769,8 @@ MDI</string>
                <rect>
                 <x>410</x>
                 <y>45</y>
-                <width>82</width>
-                <height>54</height>
+                <width>83</width>
+                <height>83</height>
                </rect>
               </property>
               <property name="text">
@@ -5360,10 +5360,11 @@ Coordinates</string>
                <widget class="ActionButton" name="actionbutton_27">
                 <property name="font">
                  <font>
-                  <family>Bebas Kai</family>
-                  <pointsize>14</pointsize>
-                  <weight>75</weight>
-                  <bold>true</bold>
+                  <family>DejaVu Sans Mono</family>
+                  <pointsize>12</pointsize>
+                  <weight>9</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
                  </font>
                 </property>
                 <property name="text">
@@ -5382,10 +5383,11 @@ MDI</string>
                <widget class="ActionButton" name="actionbutton_26">
                 <property name="font">
                  <font>
-                  <family>Bebas Kai</family>
-                  <pointsize>14</pointsize>
-                  <weight>75</weight>
-                  <bold>true</bold>
+                  <family>DejaVu Sans Mono</family>
+                  <pointsize>12</pointsize>
+                  <weight>9</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
                  </font>
                 </property>
                 <property name="text">
@@ -5404,10 +5406,11 @@ Auto</string>
                <widget class="ActionButton" name="actionbutton_25">
                 <property name="font">
                  <font>
-                  <family>Bebas Kai</family>
-                  <pointsize>14</pointsize>
-                  <weight>75</weight>
-                  <bold>true</bold>
+                  <family>DejaVu Sans Mono</family>
+                  <pointsize>12</pointsize>
+                  <weight>9</weight>
+                  <italic>false</italic>
+                  <bold>false</bold>
                  </font>
                 </property>
                 <property name="text">
@@ -5444,7 +5447,7 @@ Manual</string>
                 </property>
                </widget>
               </item>
-              <item row="1" column="3">
+              <item row="1" column="4">
                <widget class="ActionSlider" name="actionslider">
                 <property name="orientation">
                  <enum>Qt::Vertical</enum>
@@ -5454,7 +5457,7 @@ Manual</string>
                 </property>
                </widget>
               </item>
-              <item row="1" column="2">
+              <item row="1" column="3">
                <widget class="ActionSlider" name="actionslider_2">
                 <property name="orientation">
                  <enum>Qt::Vertical</enum>
@@ -5480,7 +5483,7 @@ Manual</string>
                 </property>
                </widget>
               </item>
-              <item row="0" column="2">
+              <item row="0" column="3">
                <widget class="StatusLabel" name="statuslabel_16">
                 <property name="alignment">
                  <set>Qt::AlignCenter</set>
@@ -5490,7 +5493,7 @@ Manual</string>
                 </property>
                </widget>
               </item>
-              <item row="0" column="3">
+              <item row="0" column="4">
                <widget class="StatusLabel" name="statuslabel_17">
                 <property name="alignment">
                  <set>Qt::AlignCenter</set>
@@ -5500,7 +5503,7 @@ Manual</string>
                 </property>
                </widget>
               </item>
-              <item row="1" column="1">
+              <item row="1" column="2">
                <spacer name="horizontalSpacer_5">
                 <property name="orientation">
                  <enum>Qt::Horizontal</enum>
@@ -5512,6 +5515,13 @@ Manual</string>
                  </size>
                 </property>
                </spacer>
+              </item>
+              <item row="1" column="1">
+               <widget class="HalButton" name="vaccumHB">
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+               </widget>
               </item>
              </layout>
             </widget>
@@ -7405,7 +7415,7 @@ Dia</string>
               <string>1,2</string>
              </property>
              <attribute name="horizontalHeaderDefaultSectionSize">
-              <number>200</number>
+              <number>325</number>
              </attribute>
             </widget>
            </item>
@@ -8899,21 +8909,21 @@ Modes</string>
   </property>
  </designerdata>
  <buttongroups>
+  <buttongroup name="droSmallNavBtns"/>
+  <buttongroup name="droNavBtns"/>
   <buttongroup name="holeNavBtns"/>
   <buttongroup name="holeOpKeypad"/>
-  <buttongroup name="probeBtnGrp"/>
-  <buttongroup name="droSmallNavBtns"/>
+  <buttongroup name="mdiKeypad"/>
+  <buttongroup name="mdiNavBtns"/>
+  <buttongroup name="toolSetKeypad"/>
+  <buttongroup name="probeKeypad"/>
+  <buttongroup name="g92Btns"/>
   <buttongroup name="g5xBtnGrp"/>
+  <buttongroup name="holeOpBtnGrp"/>
+  <buttongroup name="jogBtnGroup"/>
+  <buttongroup name="probeBtnGrp"/>
   <buttongroup name="sideNavBtns"/>
   <buttongroup name="jogIncBtnGroup"/>
-  <buttongroup name="mdiNavBtns"/>
-  <buttongroup name="holeOpBtnGrp"/>
-  <buttongroup name="mdiKeypad"/>
   <buttongroup name="mainNavBtns"/>
-  <buttongroup name="droNavBtns"/>
-  <buttongroup name="toolSetKeypad"/>
-  <buttongroup name="g92Btns"/>
-  <buttongroup name="jogBtnGroup"/>
-  <buttongroup name="probeKeypad"/>
  </buttongroups>
 </ui>
